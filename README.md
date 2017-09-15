@@ -48,6 +48,6 @@ sessionStorage.clear();
 
 清空存储。
 
-## LICENSE
+## License
 
 MIT
