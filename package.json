@@ -1,6 +1,6 @@
 {
   "name": "workplus-simple-storage",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Base on Local Storage and Session Storage.",
   "main": "lib/workplus-simple-storage.js",
   "jsnext:main": "lib/workplus-simple-storage.esm.js",

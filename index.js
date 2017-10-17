@@ -1,6 +1,8 @@
 class Storage {
   constructor(type) {
-    this.storage = window[type];
+    if (typeof window !== 'undefined') {
+      this.storage = window[type];
+    }
   }
 
   add(key, value, parse) {
