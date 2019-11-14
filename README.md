@@ -5,13 +5,13 @@
 ## Install
 
 ```bash
-npm install --save workplus-simple-storage
+npm install --save @w6s/simple-storage
 ```
 
 ## Usage
 
 ```js
-import { localStorage, sessionStorage } from 'workplus-simple-storage';
+import { localStorage, sessionStorage } from '@w6s/simple-storage';
 
 localStorage.add('test', 1);
 localStorage.has('test');

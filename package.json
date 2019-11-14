@@ -1,9 +1,12 @@
 {
-  "name": "workplus-simple-storage",
+  "name": "@w6s/simple-storage",
   "version": "1.1.0",
   "description": "Base on Local Storage and Session Storage.",
   "main": "lib/workplus-simple-storage.js",
   "jsnext:main": "lib/workplus-simple-storage.esm.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "ava test/index.js",
     "pretest": "npm run build",
@@ -11,7 +14,11 @@
     "watch": "rollup -c -w",
     "prepublish": "npm test"
   },
-  "keywords": [],
+  "keywords": [
+    "w6s",
+    "simple-storage",
+    "workplus"
+  ],
   "author": "Hejx <531601727@qq.com>",
   "license": "MIT",
   "devDependencies": {
